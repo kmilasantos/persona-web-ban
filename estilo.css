@@ -1,0 +1,27 @@
+body{
+    background-color: #C94936;
+    color: #434C4B;
+}
+
+h1{
+    color: #C94936;
+}
+
+div{
+    background-color: #E3E1D5;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.img{
+    border-radius: 20px;
+    margin-top: -150px;
+    height: 450px;
+}
+
+.introducao{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
