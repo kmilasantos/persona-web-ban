@@ -1,27 +1,50 @@
 body{
     background-color: #C94936;
     color: #434C4B;
+    margin: 0;
+    padding: 0;
+    font-family: "Orbitron", sans-serif;
 }
 
-h1{
+h1, .personagem{
     color: #C94936;
+    font-family: "Freckle Face", system-ui;
+    font-size: 45px;
 }
 
 div{
     background-color: #E3E1D5;
     padding: 10px 20px;
-    margin: 10px;
+    margin: 10px 100px;
     border-radius: 20px;
+    box-shadow: 10px 5px 5px rgba(79, 1, 1, 0.415);
+    border-left: #000000 solid 10px;
 }
 
-.img{
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
     border-radius: 20px;
-    margin-top: -150px;
-    height: 450px;
+    margin-top: -120px;
+    margin-bottom: 10px;
+    height: 300px;
+    box-shadow: 10px 5px 5px rgba(79, 1, 1, 0.415);
+    border: #000000 double 20px; 
 }
 
 .introducao{
-    display: flex;
-    flex-direction: column;
     margin-top: 10%;
+}
+
+.rodape{
+    background-color: #E3E1D5;
+    text-align: center;
+    padding: 10px;
+}
+
+.rodape p{
+    margin: 0;
 }
